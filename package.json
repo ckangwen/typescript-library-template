@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
-    "@charrue/eslint-config-base": "^0.1.3",
+    "@charrue/eslint-config-base": "latest",
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
     "@rollup/plugin-commonjs": "^21.0.1",
@@ -51,6 +51,6 @@
     "tslib": "^2.3.1",
     "typescript": "^4.5.2",
     "vite": "^2.8.1",
-    "vitest": "^0.3.2"
+    "vitest": "latest"
   }
 }
