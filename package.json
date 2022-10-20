@@ -37,9 +37,8 @@
   "scripts": {
     "build": "unbuild",
     "dev": "unbuild --stub",
-    "lint": "eslint src/**/*.ts",
+    "lint": "eslint src/**/*.ts --cache",
     "prepublishOnly": "npm run build",
-    "release": "bumpp && npm publish",
     "start": "esno src/index.ts",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
