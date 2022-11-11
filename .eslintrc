@@ -1,5 +1,5 @@
 {
-  "extends": ["@charrue/typescript"],
+  "extends": ["@charrue/typescript", "plugin:prettier/recommended"],
   "rules": {
     "import/no-unresolved": "off"
   }
