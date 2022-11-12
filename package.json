@@ -36,6 +36,7 @@
   ],
   "scripts": {
     "build": "tsup",
+    "dev": "tsup src/index.ts --watch",
     "postinstall": "npx husky install",
     "lint": "eslint src/**/*.ts --cache",
     "prepublishOnly": "npm run build",
